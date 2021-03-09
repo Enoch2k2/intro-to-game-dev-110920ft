@@ -1,0 +1,14 @@
+{
+  "name": "create-a-game",
+  "version": "1.0.0",
+  "description": "This is an intro series for game dev with js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js;"
+  },
+  "author": "Enoch Griffith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
