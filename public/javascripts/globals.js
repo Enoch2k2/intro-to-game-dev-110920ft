@@ -5,3 +5,10 @@ const animate = window.requestAnimationFrame; // used for animating
 // game window details
 const GAME_HEIGHT = 600;
 const GAME_WIDTH = 800;
+
+const UP_KEY = 87;
+const DOWN_KEY = 83;
+const LEFT_KEY = 65;
+const RIGHT_KEY = 68;
+
+let player;
