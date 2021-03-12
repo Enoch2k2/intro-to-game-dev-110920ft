@@ -10,5 +10,6 @@ const UP_KEY = 87;
 const DOWN_KEY = 83;
 const LEFT_KEY = 65;
 const RIGHT_KEY = 68;
+const SPACE_BAR = 32;
 
 let player;

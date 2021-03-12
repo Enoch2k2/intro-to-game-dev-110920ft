@@ -10,18 +10,20 @@ function drawBackground() {
 
 function update() {
   player.update();
+
+  Laserbeam.all.forEach( laserbeam => laserbeam.update());
 }
 
 function draw() {
   drawBackground();
   player.draw();
+  Laserbeam.all.forEach( laserbeam => laserbeam.draw());
 }
 
 function gameLoop() {
   clearFrame();
   update();
   draw();
-
   animate(gameLoop);
 }
 
